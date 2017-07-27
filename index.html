@@ -2,7 +2,9 @@
 <html>
 
 <head>
+    <title>Service Template</title>
     <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    <script type="text/javascript" src="https://fs27.formsite.com/include/form/embedManager.js?739100977"></script>
 </head>
 
 <body>
@@ -12,8 +14,8 @@
 
             <ul class="nav navbar nav-items mobile-nav-hidden" id="nav-items">
 
-                <!--<li class="bar"><img src="images/logo3.jpg" width="" height="75" class="logo"></img>-->
-                <!--</li>-->
+                <li class="bar"><img src="images/placeholder.png" width="" height="75" class="logo"></img>
+                </li>
                 <li class="bar nav-item"><a href="index.html" class="active">Home</a></li>
                 <li class="bar nav-item"><a href="about.html">About</a></li>
                 <li class="bar nav-item"><a href="services.html">Services</a></li>
@@ -23,6 +25,33 @@
         </nav>
     </header>
     <main>
+        <div class="slideshow">
+            <img class="myslides" src="images/placeholder5.jpg"></img>
+            <img class="myslides" src="images/placeholder5.jpg"></img>
+            <img class="myslides" src="images/placeholder5.jpg"></img>
+            <img class="myslides" src="images/placeholder5.jpg"></img>
+        </div>
+
+        <h1 class="name">Name of Company</h1>
+        <section class="form">
+            <div class="short">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse egestas placerat ultrices. Aliquam sed lacus quis dolor interdum dapibus. Integer eu erat quis metus lacinia commodo non ac justo. Etiam in leo tristique, venenatis justo
+                    in, porttitor sem. Sed neque diam, pharetra eu aliquam sed, varius vel elit. Ut in arcu vel arcu commodo sollicitudin non id tortor. Donec mollis eu erat eget ornare. Etiam venenatis tellus a lacus ornare ultrices. Duis viverra diam
+                    sed urna rutrum, mattis dictum quam sagittis. Vivamus lobortis nisi non faucibus blandit.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse egestas placerat ultrices. Aliquam sed lacus quis dolor interdum dapibus. Integer eu erat quis metus lacinia commodo non ac justo. Etiam in leo tristique, venenatis justo
+                    in, porttitor sem. Sed neque diam, pharetra eu aliquam sed, varius vel elit. Ut in arcu vel arcu commodo sollicitudin non id tortor. Donec mollis eu erat eget ornare. Etiam venenatis tellus a lacus ornare ultrices. Duis viverra diam
+                    sed urna rutrum, mattis dictum quam sagittis. Vivamus lobortis nisi non faucibus blandit.</p>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse egestas placerat ultrices. Aliquam sed lacus quis dolor interdum dapibus. Integer eu erat quis metus lacinia commodo non ac justo. Etiam in leo tristique, venenatis justo
+                    in, porttitor sem. Sed neque diam, pharetra eu aliquam sed, varius vel elit. Ut in arcu vel arcu commodo sollicitudin non id tortor. Donec mollis eu erat eget ornare. Etiam venenatis tellus a lacus ornare ultrices. Duis viverra diam
+                    sed urna rutrum, mattis dictum quam sagittis. Vivamus lobortis nisi non faucibus blandit.</p>
+            </div>
+            <div class="short">
+                <h2 class="littlecontact">Inquiries</h2>
+                <a name="form739100977" id="formAnchor739100977"></a>
+            </div>
+        </section>
 
     </main>
     <footer>
@@ -30,5 +59,38 @@
         <p><a>someone@gmail.com</a> / <a>(555) 555-5555</a> / 1234 E Somewhere ave / Chicago, IL</p>
     </footer>
 </body>
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("myslides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+            myIndex = 1
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 5000); // Change image every 5 seconds
+    }! function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + "://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, "script", "twitter-wjs");
+    
+    EmbedManager.embed({
+                        key: "https://fs27.formsite.com/res/showFormEmbed?EParam=m%2FOmK8apOTDLMIltPMyyhWrYe2Y6sJfY&739100977",
+                        width: "100%",
+                        mobileResponsive: true
+                    });
+</script>
 
 </html>

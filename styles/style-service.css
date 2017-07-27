@@ -1,0 +1,20 @@
+.third_text_section {
+    float:right;
+    width:33%;
+    bottom:26em;
+    position:relative;
+    /*float:top;*/
+}
+
+.first_text_section {
+    width:60%;
+}
+
+.second_text_section {
+    width:60%;
+
+}
+
+.service-img{
+    margin:0;
+}

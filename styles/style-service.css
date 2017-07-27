@@ -4,17 +4,31 @@
     bottom:26em;
     position:relative;
     /*float:top;*/
+    padding-right:1em;
+    padding-top:2em;
 }
 
 .first_text_section {
     width:60%;
+    padding-left:1em;
+    padding-top:2em;
 }
 
 .second_text_section {
     width:60%;
-
+    padding-left:1em;
 }
 
 .service-img{
     margin:0;
+    padding:0;
+}
+
+/*html,body{*/
+/*    margin:0;*/
+/*    padding:0;*/
+/*}*/
+
+.heading1{
+    text-align:center;
 }

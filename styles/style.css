@@ -83,26 +83,3 @@ p {
 h2 {
     text-align: center;
 }
-
-button {
-  background-color: white;
-  color:black;
-  padding: 3% 3%;
-  font-size: 150%;
-  transition-duration: 3s;
-  border-radius: 12px;
-  border: none;
-  cursor: pointer;
-  align-self: center;
-  box-shadow: 0 9px #000;
-}
-
-.button:hover {
-    background-color: #A9A9A9
-}
-
-.button:active {
-  background-color: #A9A9A9;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}

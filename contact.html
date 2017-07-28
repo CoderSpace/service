@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <link rel="stylesheet" href="styles/style.css" type="text/css" />
 
-        <!--<h1>Contact Now!</h1>-->
-
     </head>
+
     
     <body>
 
@@ -15,6 +15,8 @@
             <!--<button  class="nav-toggle" id="nav-toggle"><i class="fa fa-bars" aria-hidden="true"></i></button>-->
 
             <ul class="nav navbar nav-items mobile-nav-hidden" id="nav-items">
+                 <li class="bar"><img src="images/placeholder.png" width="" height="75" class="logo"></img>
+                </li>
 
                 <li class="bar"><img src="images/placeholder.png" width="" height="75" class="logo"></img>
                 </li>
@@ -24,33 +26,372 @@
                 <li class="bar nav-item"><a href="gallery.html">Gallery</a></li>
                 <li class="bar nav-item"><a href="contact.html">Contact</a></li>
             </ul>
+            <h1>Contact Us</h1>
         </nav>
-            <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute</p>
+        
+        <h2>How can we help?</h2>
+            
             <p>Fill out this form and we will contact you.</p>
         </header>
         
         <main>
-            <form>
-                Name: <input type="text" name="FullName"><br>
-                E-Mail: <input type="email" name="EMail" value="someone@example.com"><br>
-                Phone: <input type="text" name="Number">
-            </form>
+            <form method="post" action="//submit.form" onSubmit="return validateForm();">
+<div style="width: 400px;">
+</div>
+<div style="display: flex; padding-bottom: 18px;width : 450px;">
+<div style=" margin-left : 0; margin-right : 1%; width : 49%;">First name<br/>
+<input type="text" id="data_1" name="data_1" style="width: 100%;" class="form-control"/>
+</div>
+<div style=" margin-left : 1%; margin-right : 0; width : 49%;">Last name<br/>
+<input type="text" id="data_2" name="data_2" style="width: 100%;" class="form-control"/>
+</div>
+</div><div style="padding-bottom: 18px;">Email<br/>
+<input type="text" id="data_3" name="data_3" style="width : 450px;" class="form-control"/>
+</div>
+<div style="padding-bottom: 18px;">Phone<br/>
+<input type="number" id="data_4" name="data_4" style="width : 450px;" class="form-control"/>
+</div>
+<div style="padding-bottom: 18px;">State/Province<br/>
+<select id="data_5" name="data_5" style="width : 450px;" class="form-control"><option>AK</option>
+<option>AL</option>
+<option>AR</option>
+<option>AZ</option>
+<option>CA</option>
+<option>CO</option>
+<option>CT</option>
+<option>DC</option>
+<option>DE</option>
+<option>FL</option>
+<option>GA</option>
+<option>GU</option>
+<option>HI</option>
+<option>IA</option>
+<option>ID</option>
+<option>IL</option>
+<option>IN</option>
+<option>KS</option>
+<option>KY</option>
+<option>LA</option>
+<option>MA</option>
+<option>MD</option>
+<option>ME</option>
+<option>MH</option>
+<option>MI</option>
+<option>MN</option>
+<option>MO</option>
+<option>MS</option>
+<option>MT</option>
+<option>NC</option>
+<option>ND</option>
+<option>NE</option>
+<option>NH</option>
+<option>NJ</option>
+<option>NM</option>
+<option>NV</option>
+<option>NY</option>
+<option>OH</option>
+<option>OK</option>
+<option>OR</option>
+<option>PA</option>
+<option>PR</option>
+<option>PW</option>
+<option>RI</option>
+<option>SC</option>
+<option>SD</option>
+<option>TN</option>
+<option>TX</option>
+<option>UT</option>
+<option>VA</option>
+<option>VI</option>
+<option>VT</option>
+<option>WA</option>
+<option>WI</option>
+<option>WV</option>
+<option>WY</option>
+<option>AB</option>
+<option>BC</option>
+<option>MB</option>
+<option>NB</option>
+<option>NF</option>
+<option>NT</option>
+<option>NS</option>
+<option>ON</option>
+<option>PE</option>
+<option>QC</option>
+<option>SK</option>
+<option>YT</option>
+</select>
+</div>
+<div style="padding-bottom: 18px;">Country<br/>
+<select id="data_6" name="data_6" style="width : 450px;" class="form-control"><option>Afghanistan</option>
+<option>Åland Islands</option>
+<option>Albania</option>
+<option>Algeria</option>
+<option>American Samoa</option>
+<option>Andorra</option>
+<option>Angola</option>
+<option>Anguilla</option>
+<option>Antigua and Barbuda</option>
+<option>Argentina</option>
+<option>Armenia</option>
+<option>Aruba</option>
+<option>Australia</option>
+<option>Austria</option>
+<option>Azerbaijan</option>
+<option>Bangladesh</option>
+<option>Barbados</option>
+<option>Bahamas</option>
+<option>Bahrain</option>
+<option>Belarus</option>
+<option>Belgium</option>
+<option>Belize</option>
+<option>Benin</option>
+<option>Bermuda</option>
+<option>Bhutan</option>
+<option>Bolivia</option>
+<option>Bosnia and Herzegovina</option>
+<option>Botswana</option>
+<option>Brazil</option>
+<option>British Indian Ocean Territory</option>
+<option>British Virgin Islands</option>
+<option>Brunei Darussalam</option>
+<option>Bulgaria</option>
+<option>Burkina Faso</option>
+<option>Burma</option>
+<option>Burundi</option>
+<option>Cambodia</option>
+<option>Cameroon</option>
+<option>Canada</option>
+<option>Cape Verde</option>
+<option>Cayman Islands</option>
+<option>Central African Republic</option>
+<option>Chad</option>
+<option>Chile</option>
+<option>China</option>
+<option>Christmas Island</option>
+<option>Cocos (Keeling) Islands</option>
+<option>Colombia</option>
+<option>Comoros</option>
+<option>Congo-Brazzaville</option>
+<option>Congo-Kinshasa</option>
+<option>Cook Islands</option>
+<option>Costa Rica</option>
+<option>Croatia</option>
+<option>Curaçao</option>
+<option>Cyprus</option>
+<option>Czech Republic</option>
+<option>Denmark</option>
+<option>Djibouti</option>
+<option>Dominica</option>
+<option>Dominican Republic</option>
+<option>East Timor</option>
+<option>Ecuador</option>
+<option>El Salvador</option>
+<option>Egypt</option>
+<option>Equatorial Guinea</option>
+<option>Eritrea</option>
+<option>Estonia</option>
+<option>Ethiopia</option>
+<option>Falkland Islands</option>
+<option>Faroe Islands</option>
+<option>Federated States of Micronesia</option>
+<option>Fiji</option>
+<option>Finland</option>
+<option>France</option>
+<option>French Guiana</option>
+<option>French Polynesia</option>
+<option>French Southern Lands</option>
+<option>Gabon</option>
+<option>Gambia</option>
+<option>Georgia</option>
+<option>Germany</option>
+<option>Ghana</option>
+<option>Gibraltar</option>
+<option>Greece</option>
+<option>Greenland</option>
+<option>Grenada</option>
+<option>Guadeloupe</option>
+<option>Guam</option>
+<option>Guatemala</option>
+<option>Guernsey</option>
+<option>Guinea</option>
+<option>Guinea-Bissau</option>
+<option>Guyana</option>
+<option>Haiti</option>
+<option>Heard and McDonald Islands</option>
+<option>Honduras</option>
+<option>Hong Kong</option>
+<option>Hungary</option>
+<option>Iceland</option>
+<option>India</option>
+<option>Indonesia</option>
+<option>Iraq</option>
+<option>Ireland</option>
+<option>Isle of Man</option>
+<option>Israel</option>
+<option>Italy</option>
+<option>Jamaica</option>
+<option>Japan</option>
+<option>Jersey</option>
+<option>Jordan</option>
+<option>Kazakhstan</option>
+<option>Kenya</option>
+<option>Kiribati</option>
+<option>Kuwait</option>
+<option>Kyrgyzstan</option>
+<option>Laos</option>
+<option>Latvia</option>
+<option>Lebanon</option>
+<option>Lesotho</option>
+<option>Liberia</option>
+<option>Libya</option>
+<option>Liechtenstein</option>
+<option>Lithuania</option>
+<option>Luxembourg</option>
+<option>Macau</option>
+<option>Macedonia</option>
+<option>Madagascar</option>
+<option>Malawi</option>
+<option>Malaysia</option>
+<option>Maldives</option>
+<option>Mali</option>
+<option>Malta</option>
+<option>Marshall Islands</option>
+<option>Martinique</option>
+<option>Mauritania</option>
+<option>Mauritius</option>
+<option>Mayotte</option>
+<option>Mexico</option>
+<option>Moldova</option>
+<option>Monaco</option>
+<option>Mongolia</option>
+<option>Montenegro</option>
+<option>Montserrat</option>
+<option>Morocco</option>
+<option>Mozambique</option>
+<option>Namibia</option>
+<option>Nauru</option>
+<option>Nepal</option>
+<option>Netherlands</option>
+<option>New Caledonia</option>
+<option>New Zealand</option>
+<option>Nicaragua</option>
+<option>Niger</option>
+<option>Nigeria</option>
+<option>Niue</option>
+<option>Norfolk Island</option>
+<option>Northern Mariana Islands</option>
+<option>Norway</option>
+<option>Oman</option>
+<option>Pakistan</option>
+<option>Palau</option>
+<option>Panama</option>
+<option>Papua New Guinea</option>
+<option>Paraguay</option>
+<option>Peru</option>
+<option>Philippines</option>
+<option>Pitcairn Islands</option>
+<option>Poland</option>
+<option>Portugal</option>
+<option>Puerto Rico</option>
+<option>Qatar</option>
+<option>Réunion</option>
+<option>Romania</option>
+<option>Russia</option>
+<option>Rwanda</option>
+<option>Saint Barthélemy</option>
+<option>Saint Helena</option>
+<option>Saint Kitts and Nevis</option>
+<option>Saint Lucia</option>
+<option>Saint Martin</option>
+<option>Saint Pierre and Miquelon</option>
+<option>Saint Vincent</option>
+<option>Samoa</option>
+<option>San Marino</option>
+<option>São Tomé and Príncipe</option>
+<option>Saudi Arabia</option>
+<option>Senegal</option>
+<option>Serbia</option>
+<option>Seychelles</option>
+<option>Sierra Leone</option>
+<option>Singapore</option>
+<option>Sint Maarten</option>
+<option>Slovakia</option>
+<option>Slovenia</option>
+<option>Solomon Islands</option>
+<option>Somalia</option>
+<option>South Africa</option>
+<option>South Georgia</option>
+<option>South Korea</option>
+<option>Spain</option>
+<option>Sri Lanka</option>
+<option>Sudan</option>
+<option>Suriname</option>
+<option>Svalbard and Jan Mayen</option>
+<option>Sweden</option>
+<option>Swaziland</option>
+<option>Switzerland</option>
+<option>Syria</option>
+<option>Taiwan</option>
+<option>Tajikistan</option>
+<option>Tanzania</option>
+<option>Thailand</option>
+<option>Togo</option>
+<option>Tokelau</option>
+<option>Tonga</option>
+<option>Trinidad and Tobago</option>
+<option>Tunisia</option>
+<option>Turkey</option>
+<option>Turkmenistan</option>
+<option>Turks and Caicos Islands</option>
+<option>Tuvalu</option>
+<option>Uganda</option>
+<option>Ukraine</option>
+<option>United Arab Emirates</option>
+<option>United Kingdom</option>
+<option>United States</option>
+<option>Uruguay</option>
+<option>Uzbekistan</option>
+<option>Vanuatu</option>
+<option>Vatican City</option>
+<option>Vietnam</option>
+<option>Venezuela</option>
+<option>Wallis and Futuna</option>
+<option>Western Sahara</option>
+<option>Yemen</option>
+<option>Zambia</option>
+<option>Zimbabwe</option>
+</select>
+</div>
+<div style="padding-bottom: 18px;">Zip Code<br/>
+<input type="text" id="data_7" name="data_7" style="width : 450px;" class="form-control"/>
+</div>
+<div style="padding-bottom: 18px;">Street Address<br/>
+<input type="text" id="data_8" name="data_8" style="width : 450px;" class="form-control"/>
+</div>
+<div style="padding-bottom: 18px;"><input name="skip_Submit" value="Submit" type="submit"/></div>
+<div>
+<div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
+<!--<script src="https://www.100forms.com/js/FORMKEY:GDEXJ8FHC2QF/SEND:my@email.com" type="text/javascript"></script>-->
+</div>
+</form>
+
+<script type="text/javascript">
+function validateForm() {
+if (!validateEmail(document.getElementById('data_3').value.trim())) {
+alert('Email must be a valid email address!');
+return false;
+}
+return true;
+}
+function isEmpty(str) { return (str.length === 0 || !str.trim()); }
+function validateEmail(email) {
+var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+return isEmpty(email) || re.test(email);
+}
+</script>
             
-            <form>City: <input type="text" name="City"></form>
-            <form>State: <input type="text" name="State"></form>
-            <form>Zip Code: <input type="text" name="Zcode"></form>
-            <form>Street Adress: <input type="text" name="Adress"></form>
-            
-            <h2>How can we help?</h2>
-            
-            <p>Tell us what you would like us to help you with.</p>
-            
-            <input type="text" id="help">
-            
-            <button type="button">Send</button>
-            
-            
-        </main>
+            </main>
    <footer>
         <p>Contact Information:</p>
         <p><a>someone@gmail.com</a> / <a>(555) 555-5555</a> / 1234 E Somewhere ave / Chicago, IL</p>

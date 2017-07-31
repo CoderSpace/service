@@ -8,6 +8,9 @@ body {
 /*header {*/
 /*    top:0;*/
 /*}*/
+.active {
+    color: white;
+}
 
 .nav {
     display: flex;
@@ -15,28 +18,37 @@ body {
     margin-top: -10px;
     padding: 0;
     /*overflow: hidden;*/
-    background-color: gray;
+    background-color: #CFD5D3;
     font-size: 150%;
     width: 100%;
     height: 75px;
     z-index: 12;
     position: relative;
+    margin-bottom:0;
 }
 
-.bar li {
+.bar {
     /*float:left;*/
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 li a {
-    color: white;
+    color: #000042;
     text-align: center;
     text-decoration: none;
     height: 50px;
     line-height: 80px;
     white-space: nowrap;
     list-style-type: none;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
+}
+h1 {
+    font-size:3em;
+    text-align:center;
+}
+.selection {
+    font-size:2em;
+    margin-top:-20px;
 }
 .slideshow {
     text-align:center;
@@ -62,24 +74,43 @@ li a {
 .littlecontact {
     text-align:center;
 }
+.icon {
+    color:#3C5A9A;
+    /*box-shadow: 0px 3px 10px rgba(0,0,0,.25);*/
+}
+.icon2 {
+    color:#55A8ED;
+    margin-left:.5em;
+    /*box-shadow: 0px 3px 2px rgba(0,0,0,.25);*/
+    /*border-radius:3px;*/
+}
+.twitter {
+    font-size:2em;
+}
+.icon3 {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  color:white;
+  border-radius: 5px;
+  padding-right:.1em;
+  padding-left:.1em;
+  margin-left: .5em;
+}
 footer {
-        background-color: gray;
+        background-color: #CFD5D3;
         font-size: 150%;
         width: 100%;
-        height: 120px;
+        height: 9em;
         position: absolute;
         margin-top: 20px;
         text-align:center;
-        color:white;
+        color: #000042;
         
 }
-
-h1 {
-    border-style: solid;
-    text-align: center;
-    border-width: thick;
+footer a {
+    text-decoration:none;
+    color: #000042;
 }
-
 p {
     text-align: center;
 }
@@ -111,6 +142,19 @@ button {
   transform: translateY(4px);
 }
 
+.flexbox {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    text-align:center;
+}
+.gallery {
+    width:30%;
+    margin-bottom:1em;
+}
+.pics {
+    width:80%;
+}
 /*main {*/
 /*    height:80%;*/
 /*}*/

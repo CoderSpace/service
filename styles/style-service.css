@@ -95,3 +95,7 @@ footer {
 p {
     font-size:140%;
 }
+
+@media screen and (max-width: 1080px) and (min-width: 320px) {
+
+}

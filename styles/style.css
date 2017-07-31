@@ -65,7 +65,7 @@ li a {
 footer {
         background-color: gray;
         font-size: 150%;
-        width: 100%;
+        width: 100vw;
         height: 120px;
         position: absolute;
         margin-top: 20px;

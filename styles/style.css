@@ -3,11 +3,9 @@ body {
     margin: 0;
     position: relative;
     bottom: 0;
+    background-color: darkgray;
 }
 
-/*header {*/
-/*    top:0;*/
-/*}*/
 .active {
     color: white;
 }
@@ -121,26 +119,7 @@ h2 {
     text-align: center;
 }
 
-/*.button:hover {*/
-/*    background-color: #A9A9A9*/
-/*}*/
-
-/*.button:active {*/
-/*  background-color: #A9A9A9;*/
-/*  box-shadow: 0 5px #666;*/
-/*  transform: translateY(4px);*/
-}
-
-/*main {*/
-/*    height:80%;*/
-/*}*/
-
 /*Fill out form*/
-
-body {
-  font: normal 18px/1.5;
-  padding: 50px 0;
-}
 
 .fillout {
   width: 80%;
@@ -216,9 +195,7 @@ body {
   width: 100px;
 }
 
-<<<<<<< HEAD
 /*Fill out form*/
-=======
 .flexbox {
     display:flex;
     flex-wrap:wrap;
@@ -232,7 +209,3 @@ body {
 .pics {
     width:80%;
 }
-/*main {*/
-/*    height:80%;*/
-/*}*/
->>>>>>> 6d070213012aae120253e3ca2700c7f0178ec754

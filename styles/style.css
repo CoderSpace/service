@@ -3,11 +3,9 @@ body {
     margin: 0;
     position: relative;
     bottom: 0;
+    background-color: darkgray;
 }
 
-/*header {*/
-/*    top:0;*/
-/*}*/
 .active {
     color: white;
 }
@@ -121,29 +119,83 @@ h2 {
     text-align: center;
 }
 
-button {
-  background-color: white;
-  color:black;
-  padding: 3% 3%;
-  font-size: 150%;
-  transition-duration: 3s;
-  border-radius: 12px;
+/*Fill out form*/
+
+.fillout {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.fillout * {
+  box-sizing: border-box;
+}
+
+.flex-outer,
+.flex-inner {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex-outer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-outer > li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.flex-outer li label,
+.flex-outer li p {
+  padding: 8px;
+  font-weight: 300;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 220px;
+}
+
+.flex-outer li input:not([type='checkbox']),
+.flex-outer li textarea {
+  padding: 15px;
   border: none;
+}
+
+.flex-outer li button {
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: grey;
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
   cursor: pointer;
-  align-self: center;
-  box-shadow: 0 9px #000;
+  font-size: 25px;
 }
 
-.button:hover {
-    background-color: #A9A9A9
+.flex-inner li {
+  width: 100px;
 }
 
-.button:active {
-  background-color: #A9A9A9;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
+/*Fill out form*/
 .flexbox {
     display:flex;
     flex-wrap:wrap;
@@ -156,6 +208,7 @@ button {
 }
 .pics {
     width:80%;
+
 }
 /*main {*/
 /*    height:80%;*/
@@ -178,4 +231,5 @@ button {
   .mobile-nav-hidden {
     display:none;
   }
+
 }

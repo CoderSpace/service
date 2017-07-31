@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+
+
 img {
   width:100%;
 }
@@ -37,6 +40,8 @@ img {
 body{
     margin:0;
     padding:0;
+    font-family: 'Bellefair', serif;
+
 }
 
 .heading1{
@@ -85,4 +90,8 @@ footer {
 
 .logo {
     width:75px;
+}
+
+p {
+    font-size:140%;
 }

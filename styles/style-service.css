@@ -57,5 +57,16 @@ p {
 }
 
 @media screen and (max-width: 1080px) and (min-width: 320px) {
-
+  .services {
+      display:flex;
+      flex-direction:row;
+      flex-wrap:wrap;
+      padding-left:2em;
+  }
+  .service2 {
+      display:flex;
+      flex-direction:row;
+      padding-left:2em;
+      flex-wrap:wrap;
+  }
 }

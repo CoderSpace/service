@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+
 
 body {
     margin: 0;
     position: relative;
     bottom: 0;
     background-color: darkgray;
+        font-family: 'Bellefair', serif;
+
+}
+html {
+        font-family: 'Bellefair', serif;
+
 }
 
 .active {
@@ -111,6 +119,11 @@ footer a {
     text-decoration:none;
     color: #000042;
 }
+
+a:hover {
+    color:white;
+}
+
 p {
     text-align: center;
 }

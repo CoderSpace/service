@@ -44,6 +44,11 @@ body{
 
 }
 
+html {
+        font-family: 'Bellefair', serif;
+
+}
+
 .heading1{
     text-align:center;
 }
@@ -69,4 +74,12 @@ p {
       padding-left:2em;
       flex-wrap:wrap;
   }
+}
+
+.servicesideimg {
+    padding-bottom:2em;
+}
+
+.service-second-img {
+    padding-top:5em;
 }

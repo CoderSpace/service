@@ -3,11 +3,28 @@ body {
     margin: 0;
     position: relative;
     bottom: 0;
+<<<<<<< HEAD
+=======
+    /*background-color: darkgray;*/
+
+    background-color: darkgray;
+        font-family: 'Bellefair', serif;
+
+>>>>>>> 8a7dd332fbc4179b802d3f7f4efa52d57cf1f1d7
 }
 
+<<<<<<< HEAD
 /*header {*/
 /*    top:0;*/
 /*}*/
+=======
+
+}
+
+.active {
+    color: white;
+}
+>>>>>>> 8a7dd332fbc4179b802d3f7f4efa52d57cf1f1d7
 
 .nav {
     display: flex;
@@ -114,3 +131,91 @@ button {
 /*main {*/
 /*    height:80%;*/
 /*}*/
+<<<<<<< HEAD
+=======
+.nav-toggle {
+  display:none;
+}
+.home {
+  display:none;
+}
+@media (max-width:450px) {
+  .nav {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin-top:-5px;
+    /*overflow: hidden;*/
+    background-color: #CFD5D3;
+    font-size: 150%;
+    width: 100%;
+    height: 100%;
+    z-index: 12;
+    position: relative;
+    /*margin-bottom:0;*/
+}
+
+
+li a {
+    color: #000042;
+    text-align: center;
+    text-decoration: none;
+    /*height: 50px;*/
+    line-height: 80px;
+    white-space: nowrap;
+    list-style-type: none;
+}
+
+  .nav-item {
+    display:block;
+  }
+
+  .nav-toggle {
+    display:inline;
+  } 
+
+  .mobile-nav-hidden {
+    display:none;
+  }
+
+
+}
+
+.fillout select {
+    padding: 9px 8px;
+    width: 150%;
+    border: inherit;
+    background-color: white;
+    /*-webkit-appearance: none;*/
+}
+
+.fillout select:focus {
+    outline: hidden;
+
+  .logo {
+    display:none;
+  }
+  .home {
+    display:block;
+  }
+  button {
+        background: none;
+        border: none;
+        padding: 0;
+    }
+    .form {
+      display:block;
+    }
+    .short {
+      width: 90%;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .myslides {
+    width:95%;
+    height:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+>>>>>>> 8a7dd332fbc4179b802d3f7f4efa52d57cf1f1d7

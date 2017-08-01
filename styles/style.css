@@ -5,6 +5,9 @@ body {
     margin: 0;
     position: relative;
     bottom: 0;
+<<<<<<< HEAD
+    /*background-color: darkgray;*/
+=======
     background-color: darkgray;
         font-family: 'Bellefair', serif;
 
@@ -12,6 +15,7 @@ body {
 html {
         font-family: 'Bellefair', serif;
 
+>>>>>>> 25ef8c8ed45cce23f4fe371aee22276621f0ad66
 }
 
 .active {
@@ -269,6 +273,21 @@ li a {
   .mobile-nav-hidden {
     display:none;
   }
+<<<<<<< HEAD
+
+}
+
+.fillout select {
+    padding: 9px 8px;
+    width: 150%;
+    border: inherit;
+    background-color: white;
+    /*-webkit-appearance: none;*/
+}
+
+.fillout select:focus {
+    outline: hidden;
+=======
   .logo {
     display:none;
   }
@@ -294,4 +313,5 @@ li a {
     margin-left:auto;
     margin-right:auto;
 }
+>>>>>>> 25ef8c8ed45cce23f4fe371aee22276621f0ad66
 }

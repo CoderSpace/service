@@ -3,11 +3,12 @@ body {
     margin: 0;
     position: relative;
     bottom: 0;
+    background-color: darkgray;
 }
 
-/*header {*/
-/*    top:0;*/
-/*}*/
+.active {
+    color: white;
+}
 
 .nav {
     display: flex;
@@ -15,28 +16,37 @@ body {
     margin-top: -10px;
     padding: 0;
     /*overflow: hidden;*/
-    background-color: gray;
+    background-color: #CFD5D3;
     font-size: 150%;
     width: 100%;
     height: 75px;
     z-index: 12;
     position: relative;
+    margin-bottom:0;
 }
 
-.bar li {
+.bar {
     /*float:left;*/
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 li a {
-    color: white;
+    color: #000042;
     text-align: center;
     text-decoration: none;
     height: 50px;
     line-height: 80px;
     white-space: nowrap;
     list-style-type: none;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
+}
+h1 {
+    font-size:3em;
+    text-align:center;
+}
+.selection {
+    font-size:2em;
+    margin-top:-20px;
 }
 .slideshow {
     text-align:center;
@@ -62,24 +72,45 @@ li a {
 .littlecontact {
     text-align:center;
 }
+.icon {
+    color:#3C5A9A;
+    /*box-shadow: 0px 3px 10px rgba(0,0,0,.25);*/
+}
+.icon2 {
+    color:#55A8ED;
+    margin-left:.5em;
+    /*box-shadow: 0px 3px 2px rgba(0,0,0,.25);*/
+    /*border-radius:3px;*/
+}
+.twitter {
+    font-size:2em;
+}
+.icon3 {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  /*box-shadow: 0px 3px 10px rgba(0,0,0,.25);*/
+  color:white;
+  border-radius: 5px;
+  padding-right:.07em;
+  padding-left:.07em;
+  margin-left: .5em;
+}
 footer {
-        background-color: gray;
+        background-color: #CFD5D3;
         font-size: 150%;
-        width: 100%;
+        width: 100vw;
         height: 120px;
+        width: 100%;
+        height: 9em;
         position: absolute;
         margin-top: 20px;
         text-align:center;
-        color:white;
+        color: #000042;
         
 }
-
-h1 {
-    border-style: solid;
-    text-align: center;
-    border-width: thick;
+footer a {
+    text-decoration:none;
+    color: #000042;
 }
-
 p {
     text-align: center;
 }
@@ -88,29 +119,117 @@ h2 {
     text-align: center;
 }
 
-button {
-  background-color: white;
-  color:black;
-  padding: 3% 3%;
-  font-size: 150%;
-  transition-duration: 3s;
-  border-radius: 12px;
+/*Fill out form*/
+
+.fillout {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.fillout * {
+  box-sizing: border-box;
+}
+
+.flex-outer,
+.flex-inner {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex-outer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-outer > li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.flex-outer li label,
+.flex-outer li p {
+  padding: 8px;
+  font-weight: 300;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 220px;
+}
+
+.flex-outer li input:not([type='checkbox']),
+.flex-outer li textarea {
+  padding: 15px;
   border: none;
+}
+
+.flex-outer li button {
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: grey;
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
   cursor: pointer;
-  align-self: center;
-  box-shadow: 0 9px #000;
+  font-size: 25px;
 }
 
-.button:hover {
-    background-color: #A9A9A9
+.flex-inner li {
+  width: 100px;
 }
 
-.button:active {
-  background-color: #A9A9A9;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+/*Fill out form*/
+.flexbox {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    text-align:center;
 }
+.gallery {
+    width:30%;
+    margin-bottom:1em;
+}
+.pics {
+    width:80%;
 
+}
 /*main {*/
 /*    height:80%;*/
 /*}*/
+.nav-toggle {
+  display:none;
+}
+
+@media (max-width:450px) {
+  
+
+  .nav-item {
+    display:block;
+  }
+
+  .nav-toggle {
+    display:inline;
+  } 
+
+  .mobile-nav-hidden {
+    display:none;
+  }
+
+}

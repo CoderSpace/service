@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Bellefair');
 body {
-  margin: 0;
-  position: relative;
-  bottom: 0;
-  <<<<<<< HEAD
-  /*background-color: darkgray;*/
-  =======background-color: darkgray;
-  font-family: 'Bellefair', serif;
+
+    margin: 0;
+    position: relative;
+    bottom: 0;
+    /*background-color: darkgray;*/
+
+    background-color: darkgray;
+        font-family: 'Bellefair', serif;
+
 }
+
 
 html {
   font-family: 'Bellefair', serif;
-  >>>>>>>25ef8c8ed45cce23f4fe371aee22276621f0ad66
+
 }
 
 .active {
@@ -289,9 +292,11 @@ h2 {
   .mobile-nav-hidden {
     display: none;
   }
+
   .logo {
   display: none;
 }
+
 
 
 button {
@@ -329,6 +334,32 @@ button {
 }
 
 .fillout select:focus {
-  outline: hidden;
+
+    outline: hidden;
+
+  .logo {
+    display:none;
+  }
+  .home {
+    display:block;
+  }
+  button {
+        background: none;
+        border: none;
+        padding: 0;
+    }
+    .form {
+      display:block;
+    }
+    .short {
+      width: 90%;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .myslides {
+    width:95%;
+    height:70%;
+    margin-left:auto;
+    margin-right:auto;
 }
 

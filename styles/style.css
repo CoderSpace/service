@@ -3,7 +3,7 @@ body {
     margin: 0;
     position: relative;
     bottom: 0;
-    background-color: darkgray;
+    /*background-color: darkgray;*/
 }
 
 .active {
@@ -232,4 +232,16 @@ h2 {
     display:none;
   }
 
+}
+
+.fillout select {
+    padding: 9px 8px;
+    width: 150%;
+    border: inherit;
+    background-color: white;
+    /*-webkit-appearance: none;*/
+}
+
+.fillout select:focus {
+    outline: hidden;
 }

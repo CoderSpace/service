@@ -8,12 +8,13 @@ main{
     padding-left: 20%;
 }
 
-p {
-    width:65px;
+/*p {*/
+/*    width:65px;*/
+/*    padding:30px;*/
     
     
 
-}
+/*}*/
 
 
 /*.img2 {*/
@@ -40,15 +41,14 @@ p {
 
 
 .text2{
-    margin-right: auto;
-    margin-left:auto;
+    padding-left: 30px;
 
 }
 
 img{
     
     width:100%;
-    height;
+    
 }
 
 

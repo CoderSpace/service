@@ -5,8 +5,7 @@ body {
     margin: 0;
     position: relative;
     bottom: 0;
-    background-color: darkgray;
-        font-family: 'Bellefair', serif;
+    font-family: 'Bellefair', serif;
 }
 
 html {
@@ -24,7 +23,7 @@ html {
     margin-top: -10px;
     padding: 0;
     /*overflow: hidden;*/
-    background-color: gray;
+    background-color: #CFD5D3;
     font-size: 150%;
     width: 100%;
     height: 75px;
@@ -38,26 +37,13 @@ html {
 }
 
 li a {
-    color: white;
+    color: #000042;
     text-align: center;
     text-decoration: none;
     height: 50px;
     line-height: 80px;
     white-space: nowrap;
     list-style-type: none;
-    margin-left: 20px;
-  display: flex;
-  list-style-type: none;
-  margin-top: -10px;
-  padding: 0;
-  /*overflow: hidden;*/
-  background-color: #CFD5D3;
-  font-size: 150%;
-  width: 100%;
-  height: 75px;
-  z-index: 12;
-  position: relative;
-  margin-bottom: 0;
 }
 
 .bar {
@@ -65,16 +51,6 @@ li a {
   margin-right: 20px;
 }
 
-li a {
-  color: #000042;
-  text-align: center;
-  text-decoration: none;
-  height: 50px;
-  line-height: 80px;
-  white-space: nowrap;
-  list-style-type: none;
-  /*margin-left: 20px;*/
-}
 
 h1 {
   font-size: 3em;
@@ -92,8 +68,6 @@ h1 {
 }
 
 .myslides {
-    width:100%;
-    height:400px;
     margin-top:-24px;
   width: 100%;
   height: 25em;
@@ -116,23 +90,7 @@ h1 {
   text-align: center;
 }
 
-footer {
-        background-color: gray;
-        font-size: 150%;
-        width: 100%;
-        height: 120px;
-        position: absolute;
-        margin-top: 20px;
-        text-align:center;
-        color:white;
-        
-}
 
-h1 {
-    border-style: solid;
-    text-align: center;
-    border-width: thick;
-=======
 
 .icon {
   color: #3C5A9A;
@@ -163,8 +121,6 @@ h1 {
 footer {
   background-color: #CFD5D3;
   font-size: 150%;
-  width: 100vw;
-  height: 120px;
   width: 100%;
   height: 9em;
   position: absolute;
@@ -188,16 +144,6 @@ p {
 
 h2 {
   text-align: center;
-}
-
-button {
-  background-color: white;
-  color:black;
-  padding: 3% 3%;
-  font-size: 150%;
-  transition-duration: 3s;
-  border-radius: 12px;
-  border: none;
 }
 
 /*Fill out form*/
@@ -389,29 +335,4 @@ button {
 .fillout select:focus {
 
     outline: hidden;
-
-  .logo {
-    display:none;
-  }
-  .home {
-    display:block;
-  }
-  button {
-        background: none;
-        border: none;
-        padding: 0;
-    }
-    .form {
-      display:block;
-    }
-    .short {
-      width: 90%;
-      margin-left:auto;
-      margin-right:auto;
-    }
-    .myslides {
-    width:95%;
-    height:70%;
-    margin-left:auto;
-    margin-right:auto;
 }

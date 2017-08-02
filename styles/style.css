@@ -5,8 +5,7 @@ body {
     margin: 0;
     position: relative;
     bottom: 0;
-    background-color: darkgray;
-        font-family: 'Bellefair', serif;
+    font-family: 'Bellefair', serif;
 }
 
 html {
@@ -24,7 +23,7 @@ html {
     margin-top: -10px;
     padding: 0;
     /*overflow: hidden;*/
-    background-color: gray;
+    background-color: #CFD5D3;
     font-size: 150%;
     width: 100%;
     height: 75px;
@@ -38,26 +37,19 @@ html {
 }
 
 li a {
-    color: white;
+    color: #000042;
     text-align: center;
     text-decoration: none;
     height: 50px;
     line-height: 80px;
     white-space: nowrap;
     list-style-type: none;
-    margin-left: 20px;
-  display: flex;
-  list-style-type: none;
-  margin-top: -10px;
-  padding: 0;
-  /*overflow: hidden;*/
-  background-color: #CFD5D3;
-  font-size: 150%;
-  width: 100%;
-  height: 75px;
-  z-index: 12;
-  position: relative;
-  margin-bottom: 0;
+}
+
+
+.bar {
+  /*float:left;*/
+  margin-right: 20px;
 }
 
 h1 {
@@ -76,8 +68,6 @@ h1 {
 }
 
 .myslides {
-    width:100%;
-    height:400px;
     margin-top:-24px;
   width: 100%;
   height: 25em;
@@ -109,6 +99,19 @@ footer {
         margin-top: 20px;
         text-align:center;
         color:white;
+  
+}
+
+.icon {
+  color: #3C5A9A;
+  /*box-shadow: 0px 3px 10px rgba(0,0,0,.25);*/
+}
+
+.icon2 {
+  color: #55A8ED;
+  margin-left: .5em;
+  /*box-shadow: 0px 3px 2px rgba(0,0,0,.25);*/
+  /*border-radius:3px;*/
 }
 
 .twitter {
@@ -128,8 +131,6 @@ footer {
 footer {
   background-color: #CFD5D3;
   font-size: 150%;
-  width: 100vw;
-  height: 120px;
   width: 100%;
   height: 9em;
   position: absolute;
@@ -153,16 +154,6 @@ p {
 
 h2 {
   text-align: center;
-}
-
-button {
-  background-color: white;
-  color:black;
-  padding: 3% 3%;
-  font-size: 150%;
-  transition-duration: 3s;
-  border-radius: 12px;
-  border: none;
 }
 
 /*Fill out form*/
@@ -226,7 +217,7 @@ button {
 
 .flex-outer li button {
   margin-left: auto;
-  padding: 8px 16px;
+  padding: 9px 26px;
   border: none;
   background: grey;
   color: white;
@@ -235,19 +226,11 @@ button {
   border-radius: 2px;
   cursor: pointer;
   align-self: center;
-  box-shadow: 0 9px #000;
 }
 
 .button:hover {
-    background-color: #A9A9A9
+    background-color: gray;
 }
-
-.button:active {
-  background-color: #A9A9A9;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
 
 /*Fill out form*/
 
@@ -315,16 +298,6 @@ button {
   display: none;
 }
 
-
-
-button {
-  background-color: #CFD5D3;
-  border: none;
-  margin-bottom:10px;
-  margin-left: 10px;
-  margin-top:10px;
-}
-
 .form {
   display: block;
 }
@@ -354,29 +327,4 @@ button {
 .fillout select:focus {
 
     outline: hidden;
-
-  .logo {
-    display:none;
-  }
-  .home {
-    display:block;
-  }
-  button {
-        background: none;
-        border: none;
-        padding: 0;
-    }
-    .form {
-      display:block;
-    }
-    .short {
-      width: 90%;
-      margin-left:auto;
-      margin-right:auto;
-    }
-    .myslides {
-    width:95%;
-    height:70%;
-    margin-left:auto;
-    margin-right:auto;
 }

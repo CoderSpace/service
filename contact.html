@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles/style.css" type="text/css" />
     <script src="https://use.fontawesome.com/eea71920ff.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script type="text/javascript" src="index.js"></script>
 </head>
 
 
@@ -15,15 +15,15 @@
 
     <header>
         <nav>
-            <button  class="nav-toggle" id="nav-toggle"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></button>
+            <button  class="nav-toggle" id="nav-toggle"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
 
             <ul class="nav navbar nav-items mobile-nav-hidden" id="nav-items">
                 
                 <li class="bar">
-                    <a href="index.html"><img src="images/placeholder.png" width="75" height="75" class="logo"></img>
+                    <a class="logo" href="index.html"><img src="images/placeholder.png" width="75" height="75" class="logo"></img>
                     </a>
                 </li>
-                <li class="home">
+                <li class="bar home nav-item">
                     <a href="index.html">Home</a>
                 </li>
                 <li class="bar nav-item"><a href="about.html">About</a></li>
@@ -408,16 +408,5 @@
         <a href="https://www.instagram.com/accounts/login/" target="blank"><i class="fa fa-instagram fa-2x icon3" aria-hidden="true"></i></a>
     </footer>
 </body>
-<script>
-    var navToggle = document.getElementById('nav-toggle');
-
-    var navItems = document.getElementById('nav-items')
-        
-    navToggle.addEventListener('click', function() {
-
-        navItems.classList.toggle('mobile-nav-hidden');
-    });
-</script>
-</script>
 
 </html>

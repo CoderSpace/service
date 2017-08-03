@@ -21,11 +21,13 @@ img {
     padding-top:2em;
     margin-left:auto;
       width: 200%;
+      padding-left:2em;
   
 }
 
 .first_text_section {
-    padding:2%;
+    /*padding:2%;*/
+    justify-content:flex-start;
 }
 
 .second_text_section {
@@ -59,6 +61,7 @@ html {
 
 .texts {
     font-size:140%;
+    justify-content:flex-start;
 }
 
 @media screen and (max-width: 1080px) and (min-width: 320px) {
@@ -66,13 +69,15 @@ html {
       display:flex;
       flex-direction:row;
       flex-wrap:wrap;
-      padding-left:2em;
+      /*padding-left:2em;*/
+      justify-content:flex-start;
   }
   .service2 {
       display:flex;
       flex-direction:row;
       padding-left:2em;
       flex-wrap:wrap;
+      justify-content:flex-start;
   }
 }
 

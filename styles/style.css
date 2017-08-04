@@ -29,6 +29,10 @@ html {
     position: relative;
 }
 
+/*.bar li {*/
+/*    margin-right: 50px;*/
+/*}*/
+
 li a {
   color: #000042;
   text-align: center;
@@ -39,6 +43,10 @@ li a {
   list-style-type: none;
   margin-right: 20px;
 }
+
+/*.bar {*/
+/*  margin-right: 20px;*/
+/*}*/
 
 h1 {
   font-size: 3em;

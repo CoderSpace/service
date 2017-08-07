@@ -379,10 +379,13 @@ h2 {
  
 .text2{
   margin:auto;
+  font-size:20px;
+  
 }
 
 .text2{
    padding: 20px;
+   margin:auto;
  
 }
 
@@ -393,8 +396,12 @@ h2 {
  
 }
 
-.img2{
-  bottom:17.5em;
-  position:relative;
-  outline: hidden;
+.text{
+  
+    padding: 20px;
+    margin:auto;
+  
 }
+
+
+

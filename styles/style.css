@@ -29,9 +29,9 @@ html {
     position: relative;
 }
 
-.bar li {
-    margin-right: 50px;
-
+/*.bar li {*/
+/*    margin-right: 50px;*/
+/*}*/
 
 li a {
   color: #000042;
@@ -45,9 +45,9 @@ li a {
 }
 
 
-.bar {
-  margin-right: 20px;
-}
+/*.bar {*/
+/*  margin-right: 20px;*/
+/*}*/
 
 h1 {
   font-size: 3em;

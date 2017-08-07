@@ -114,16 +114,16 @@ h1 {
 
 
 .icon {
-  color: #3C5A9A;
+  /*color: #3C5A9A;*/
   margin-right: .5em;
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  /*box-shadow: 0px 3px 10px rgba(0,0,0,.25);*/
 }
 
 .icon2 {
-  color: #55A8ED;
+  /*color: #55A8ED;*/
   margin-right: .5em;
-  box-shadow: 0px 3px 2px rgba(0,0,0,.25);
-  border-radius:3px;
+  /*box-shadow: 0px 3px 2px rgba(0,0,0,.25);*/
+  /*border-radius:3px;*/
 }
 
 .twitter {
@@ -276,58 +276,67 @@ h2 {
     z-index: 12;
     position: relative;
     /*margin-bottom:0;*/
-    display: block;
-  }
-  li a {
-    display: block;
-    color: #000042;
-    text-align: center;
-    text-decoration: none;
-    height: 50px;
-    line-height: 50px;
-    white-space: nowrap;
-    list-style-type: none;
-  }
-  .nav-item {
-    display: block;
-  }
-  .nav-toggle {
-    display: inline;
-  }
-  .mobile-nav-hidden {
-    display: none;
-  }
-  .logo {
-    display: none;
-  }
-  button {
-    background-color: #CFD5D3;
-    border: none;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
-  .form {
-    display: block;
-  }
-  .short {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .myslides {
-    width: 95%;
-    height: 70%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  p {
-    font-size:1em;
-  }
-  .gallery{
-    width:40%;
-  }
-
+  display: block;
+}
+  
+li a {
+  display: block;
+  color: #000042;
+  text-align: center;
+  text-decoration: none;
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+  list-style-type: none;
+}
+  
+.nav-item {
+  display: block;
+}
+  
+.nav-toggle {
+  display: inline;
+}
+  
+.mobile-nav-hidden {
+  display: none;
+}
+  
+.logo {
+  display: none;
+}
+  
+button {
+  background-color: #CFD5D3;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+  
+.form {
+  display: block;
+}
+  
+.short {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+.myslides {
+  width: 95%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+p {
+  font-size:1em;
+}
+  
+.gallery{
+  width:40%;
 }
 
 .fillout select {
@@ -342,15 +351,11 @@ h2 {
 }
 
 .text2{
-   padding: 20px;
- 
+  padding: 20px;
 }
 
-
 .img{
-  
   padding-left:35em;
- 
 }
 
 .img2{

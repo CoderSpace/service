@@ -18,27 +18,22 @@ img {
     padding-left:2em;
 }
 
-<<<<<<< HEAD
 
-=======
 .third_text_section {
     padding-right:1em;
     padding-top:2em;
     margin-left:auto;
       width: 200%;
       padding-left:2em;
->>>>>>> 20a801706e155b251554747f1f440b279ac6c946
   
 
 
 .first_text_section {
-<<<<<<< HEAD
         justify-content:flex-start;
 
-=======
     /*padding:2%;*/
     justify-content:flex-start;
->>>>>>> 20a801706e155b251554747f1f440b279ac6c946
+
 }
 
 .secondlist {
@@ -76,14 +71,11 @@ html {
 }
 
 .texts {
-<<<<<<< HEAD
     padding-left:2em;
     font-size:118%;
     padding-right:2em;
-=======
     font-size:140%;
     justify-content:flex-start;
->>>>>>> 20a801706e155b251554747f1f440b279ac6c946
 }
 
 @media screen and (max-width: 1080px) and (min-width: 320px) {
@@ -91,14 +83,11 @@ html {
       display:flex;
       flex-direction:row;
       flex-wrap:wrap;
-<<<<<<< HEAD
       padding-left:2em;
             justify-content:flex-start;
 
-=======
       /*padding-left:2em;*/
       justify-content:flex-start;
->>>>>>> 20a801706e155b251554747f1f440b279ac6c946
   }
   .service2 {
       display:flex;

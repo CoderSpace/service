@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bellefair');
-
 body {
+
 
     margin: 0;
     position: relative;
@@ -10,7 +10,6 @@ body {
 
 html {
   font-family: 'Bellefair', serif;
-
 }
 
 .active {
@@ -22,7 +21,6 @@ html {
     list-style-type: none;
     margin-top: -10px;
     padding: 0;
-    /*overflow: hidden;*/
     background-color: #CFD5D3;
     font-size: 150%;
     width: 100%;
@@ -31,35 +29,58 @@ html {
     position: relative;
 }
 
-.bar li {
-    /*float:left;*/
-    margin-right: 50px;
-}
+/*.bar li {*/
+/*    margin-right: 50px;*/
+/*}*/
 
 li a {
-    color: #000042;
-    text-align: center;
-    text-decoration: none;
-    height: 50px;
-    line-height: 80px;
-    white-space: nowrap;
-    list-style-type: none;
-}
-
-
-.bar {
-  /*float:left;*/
+  color: #000042;
+  text-align: center;
+  text-decoration: none;
+  height: 50px;
+  line-height: 80px;
+  white-space: nowrap;
+  list-style-type: none;
   margin-right: 20px;
 }
+
+
+/*.bar {*/
+/*  margin-right: 20px;*/
+/*}*/
 
 h1 {
   font-size: 3em;
   text-align: center;
 }
-
+.text {
+  font-size:140%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.conbutton {
+  text-decoration:none;
+  border: 2px #000042 solid;
+  background-color: #CFD5D3;
+  border-radius:5px;
+  display:block;
+  padding:10px;
+  width:20%;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:20px;
+}
+.facebook {
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  color: #000042;
+}
 .selection {
   font-size: 2em;
   margin-top: -20px;
+  text-align:center;
 }
 
 .slideshow {
@@ -68,7 +89,7 @@ h1 {
 }
 
 .myslides {
-    margin-top:-24px;
+  margin-top:-24;
   width: 100%;
   height: 25em;
 }
@@ -101,17 +122,13 @@ footer {
         color:white;
   
 }
-
 .icon {
   color: #3C5A9A;
-  /*box-shadow: 0px 3px 10px rgba(0,0,0,.25);*/
 }
 
 .icon2 {
   color: #55A8ED;
   margin-left: .5em;
-  /*box-shadow: 0px 3px 2px rgba(0,0,0,.25);*/
-  /*border-radius:3px;*/
 }
 
 .twitter {
@@ -120,7 +137,6 @@ footer {
 
 .icon3 {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  /*box-shadow: 0px 3px 10px rgba(0,0,0,.25);*/
   color: white;
   border-radius: 5px;
   padding-right: .07em;
@@ -148,15 +164,18 @@ a:hover {
   color: white;
 }
 
+<<<<<<< HEAD
 p {
   /*text-align: center;*/
 }
 
+=======
+>>>>>>> 20a801706e155b251554747f1f440b279ac6c946
 h2 {
   text-align: center;
 }
 
-/*Fill out form*/
+
 
 .fillout {
   width: 80%;
@@ -232,7 +251,6 @@ h2 {
     background-color: gray;
 }
 
-/*Fill out form*/
 
 .flexbox {
   display: flex;
@@ -250,7 +268,6 @@ h2 {
   width: 80%;
 }
 
-
 .nav-toggle {
   display: none;
 }
@@ -264,7 +281,6 @@ h2 {
     list-style-type: none;
     padding: 0;
     margin-top: -5px;
-    /*overflow: hidden;*/
     background-color: #CFD5D3;
     font-size: 150%;
     width: 100%;
@@ -272,10 +288,10 @@ h2 {
     z-index: 12;
     position: relative;
     /*margin-bottom:0;*/
-    display:block;
+    display: block;
   }
   li a {
-    display:block;
+    display: block;
     color: #000042;
     text-align: center;
     text-decoration: none;
@@ -293,27 +309,37 @@ h2 {
   .mobile-nav-hidden {
     display: none;
   }
-
   .logo {
-  display: none;
-}
+    display: none;
+  }
+  button {
+    background-color: #CFD5D3;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .form {
+    display: block;
+  }
+  .short {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .myslides {
+    width: 95%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p {
+    font-size:1em;
+  }
+  .gallery{
+    width:40%;
+  }
 
-.form {
-  display: block;
-}
-
-.short {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.myslides {
-  width: 95%;
-  height: 70%;
-  margin-left: auto;
-  margin-right: auto;
-}
 }
 
 .fillout select {
@@ -321,10 +347,31 @@ h2 {
   width: 150%;
   border: inherit;
   background-color: white;
-  /*-webkit-appearance: none;*/
 }
 
 .fillout select:focus {
+<<<<<<< HEAD
 
     outline: hidden;
 }
+
+.text2{
+   padding: 20px;
+ 
+}
+
+
+.img{
+  
+  padding-left:35em;
+ 
+}
+
+.img2{
+  bottom:17.5em;
+  position:relative;
+}
+=======
+  outline: hidden;
+}
+>>>>>>> 2c72ed2b626e50382bbeecb5aba822909c5a6dd7

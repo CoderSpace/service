@@ -343,7 +343,6 @@ h2 {
 }
 
 .fillout select:focus {
-<<<<<<< HEAD
 
     outline: hidden;
 }
@@ -364,7 +363,3 @@ h2 {
   bottom:17.5em;
   position:relative;
 }
-=======
-  outline: hidden;
-}
->>>>>>> 2c72ed2b626e50382bbeecb5aba822909c5a6dd7

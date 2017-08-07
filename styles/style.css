@@ -2,10 +2,10 @@
 body {
 
 
-    margin: 0;
-    position: relative;
-    bottom: 0;
-    font-family: 'Bellefair', serif;
+  margin: 0;
+  position: relative;
+  bottom: 0;
+  font-family: 'Bellefair', serif;
 }
 
 html {
@@ -17,18 +17,23 @@ html {
 }
 
 .nav {
-    display: flex;
-    list-style-type: none;
-    margin-top: -10px;
-    padding: 0;
-    background-color: #CFD5D3;
-    font-size: 150%;
-    width: 100%;
-    height: 75px;
-    z-index: 12;
-    position: relative;
-    margin-bottom:0px;
+  display: flex;
+  list-style-type: none;
+  margin-top: -10px;
+  padding: 0;
+  background-color: #CFD5D3;
+  font-size: 150%;
+  width: 100%;
+  height: 75px;
+  z-index: 12;
+  position: relative;
+  margin-bottom: 0px;
 }
+
+.bar li {
+    margin-right: 50px;
+}
+
 
 li a {
   color: #000042;
@@ -41,42 +46,46 @@ li a {
   margin-right: 20px;
 }
 
-
 h1 {
   font-size: 3em;
   text-align: center;
 }
+
 .text {
-  font-size:140%;
-  margin-left:auto;
-  margin-right:auto;
+  font-size: 140%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .formp {
-  text-align:center;
+  text-align: center;
 }
+
 .conbutton {
-  text-decoration:none;
+  text-decoration: none;
   border: 2px #000042 solid;
   background-color: #CFD5D3;
-  border-radius:5px;
-  display:block;
-  padding:10px;
-  width:20%;
-  text-align:center;
-  margin-left:auto;
-  margin-right:auto;
-  margin-bottom:20px;
+  border-radius: 5px;
+  display: block;
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
+
 .facebook {
-  margin-left:auto;
-  margin-right:auto;
-  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   color: #000042;
 }
+
 .selection {
   font-size: 2em;
   margin-top: -20px;
-  text-align:center;
+  text-align: center;
 }
 
 .slideshow {
@@ -85,7 +94,7 @@ h1 {
 }
 
 .myslides {
-  margin-top:-24;
+  margin-top: -24;
   width: 100%;
   height: 25em;
 }
@@ -121,19 +130,23 @@ h1 {
   /*border-radius:3px;*/
 }
 
-
+.twitter {
+  font-size: 2em;
+}
 
 /*.icon3 {*/
+
 /*  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);*/
-  /*box-shadow: 0px 3px 10px rgba(0,0,0,.25);*/
 /*  color: white;*/
+
 /*  border-radius: 5px;*/
+
 /*  padding-right: .07em;*/
+
 /*  padding-left: .07em;*/
+
 /*  margin-left: .5em;*/
-/*}*/
-
-
+}
 footer {
   background-color: #CFD5D3;
   font-size: 150%;
@@ -231,7 +244,7 @@ h2 {
 }
 
 .button:hover {
-    background-color: gray;
+  background-color: gray;
 }
 
 
@@ -317,12 +330,11 @@ h2 {
     margin-right: auto;
   }
   p {
-    font-size:1em;
+    font-size: 1em;
   }
-  .gallery{
-    width:40%;
+  .gallery {
+    width: 40%;
   }
-
 }
 
 .fillout select {
@@ -333,22 +345,129 @@ h2 {
 }
 
 .fillout select:focus {
-    outline: hidden;
+  outline: hidden;
 }
 
-.text2{
-   padding: 20px;
- 
+.text2 {
+  padding: 20px;
+
 }
 
 
-.img{
-  
-  padding-left:35em;
- 
+.img {
+
+  padding-left: 35em;
+
 }
 
-.img2{
-  bottom:17.5em;
-  position:relative;
+.img2 {
+  bottom: 17.5em;
+  position: relative;
+}
+
+/*code for expanding img*/
+
+.lightbox-target {
+  position: fixed;
+  top: -100%;
+  width: 100%;
+  background: rgba(0, 0, 0, .7);
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+  overflow: hidden;
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 0%;
+  max-width: 0%;
+  border: 3px solid white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, .3);
+  box-sizing: border-box;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+/* Styles the close link, adds the slide down transition */
+
+a.lightbox-close {
+  display: block;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  background: white;
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  top: -80px;
+  right: 0;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+/* "X" to close out of image */
+
+a.lightbox-close:before {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: black;
+  position: absolute;
+  left: 26px;
+  top: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* "X" to close out of image */
+
+a.lightbox-close:after {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: black;
+  position: absolute;
+  left: 26px;
+  top: 10px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+
+.lightbox-target:target {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+}
+
+.lightbox-target:target img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+  top: 0px;
+  margin-top:80px;
 }

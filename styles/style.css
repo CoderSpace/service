@@ -2,10 +2,18 @@
 body {
 
 
+
+    margin: 0;
+    position: relative;
+    bottom: 0;
+    background-color: darkgray;
+        font-family: 'Bellefair', serif;
+
   margin: 0;
   position: relative;
   bottom: 0;
   font-family: 'Bellefair', serif;
+
 }
 
 html {
@@ -34,7 +42,7 @@ html {
     margin-right: 50px;
 }
 
-
+}
 li a {
   color: #000042;
   text-align: center;
@@ -117,6 +125,19 @@ h1 {
 }
 
 
+footer {
+        background-color: gray;
+        font-size: 150%;
+        width: 100%;
+        height: 120px;
+        position: absolute;
+        margin-top: 20px;
+        text-align:center;
+        color:white;
+        
+}
+
+
 .icon {
   /*color: #3C5A9A;*/
   margin-right: .5em;
@@ -150,6 +171,8 @@ h1 {
 footer {
   background-color: #CFD5D3;
   font-size: 150%;
+  width: 100vw;
+  height: 120px;
   width: 100%;
   height: 9em;
   position: absolute;
@@ -170,8 +193,6 @@ a:hover {
 h2 {
   text-align: center;
 }
-
-
 
 .fillout {
   width: 80%;
@@ -335,8 +356,15 @@ h2 {
   .gallery {
     width: 40%;
   }
-}
 
+  
+/*p {*/
+/*  margin:auto;*/
+/*}*/
+
+
+
+}
 .fillout select {
   padding: 9px 8px;
   width: 150%;
@@ -345,6 +373,46 @@ h2 {
 }
 
 .fillout select:focus {
+
+    outline: hidden;
+}
+
+  .logo {
+    display:none;
+  }
+  .home {
+    display:block;
+  }
+  button {
+        background: none;
+        border: none;
+        padding: 0;
+    }
+    .form {
+      display:block;
+    }
+    .short {
+      width: 90%;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .myslides {
+    width:95%;
+    height:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+ 
+.text2{
+  margin:auto;
+  font-size:20px;
+  
+}
+
+.text2{
+   padding: 20px;
+   margin:auto;
+
   outline: hidden;
 }
 
@@ -380,6 +448,16 @@ h2 {
   transition: opacity .5s ease-in-out;
   overflow: hidden;
 }
+
+
+.text{
+  
+    padding: 20px;
+    margin:auto;
+  
+}
+
+
 
 /* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
 
@@ -471,3 +549,4 @@ a.lightbox-close:after {
   top: 0px;
   margin-top:80px;
 }
+

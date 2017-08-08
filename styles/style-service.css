@@ -2,7 +2,7 @@
 
 
 img {
-  width:100%;
+  /*width:100%;*/
 }
 
 .service2 {
@@ -14,8 +14,8 @@ img {
 .services {
   display:flex;
   justify-content:space-around;
-    justify-content:flex-start
-    padding-left:2em;
+  justify-content:flex-start
+  padding-left:2em;
 }
 
 

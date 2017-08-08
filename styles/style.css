@@ -270,17 +270,6 @@ h2 {
   display: block;
 }
 
-li a {
-  display: block;
-  color: #000042;
-  text-align: center;
-  text-decoration: none;
-  height: 50px;
-  line-height: 50px;
-  white-space: nowrap;
-  list-style-type: none;
-}
-  
 .nav-item {
   display: block;
 }
@@ -331,10 +320,9 @@ p {
 }
 
 .fillout select {
-  padding: 9px 8px;
-  width: 150%;
-  border: inherit;
+  border: none;
   background-color: white;
+  padding: 12px 9px;
 }
 
 .fillout select:focus {

@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Bellefair');
 body {
-
-
-    margin: 0;
-    position: relative;
-    bottom: 0;
-    font-family: 'Bellefair', serif;
+  margin: 0;
+  position: relative;
+  bottom: 0;
+  font-family: 'Bellefair', serif;
 }
 
 html {
@@ -28,11 +26,6 @@ html {
     z-index: 12;
     position: relative;
 }
-
-.bar li {
-    margin-right: 50px;
-}
-
 
 li a {
   color: #000042;
@@ -111,7 +104,6 @@ h1 {
 .littlecontact {
   text-align: center;
 }
-
 
 .icon {
   /*color: #3C5A9A;*/
@@ -277,7 +269,7 @@ h2 {
   position: relative;
   display: block;
 }
-  
+
 li a {
   display: block;
   color: #000042;
@@ -360,4 +352,5 @@ p {
 .img2{
   bottom:17.5em;
   position:relative;
+}
 }

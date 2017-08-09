@@ -53,6 +53,7 @@ h1 {
   margin-left:auto;
   margin-right:auto;
 }
+
 .conbutton {
   text-decoration:none;
   border: 2px #000042 solid;
@@ -66,12 +67,14 @@ h1 {
   margin-right:auto;
   margin-bottom:20px;
 }
+
 .facebook {
   margin-left:auto;
   margin-right:auto;
   display:block;
   color: #000042;
 }
+
 .selection {
   font-size: 2em;
   margin-top: -20px;
@@ -303,7 +306,7 @@ p {
   font-size:1em;
 }
   
-.gallery{
+.gallery {
   width:40%;
 }
 
@@ -317,15 +320,15 @@ p {
     outline: hidden;
 }
 
-.text2{
+.text2 {
   padding: 20px;
 }
 
-.img{
+.img {
   padding-left:35em;
 }
 
-.img2{
+.img2 {
   bottom:17.5em;
   position:relative;
 }

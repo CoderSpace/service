@@ -375,14 +375,16 @@ h2 {
 
 
 .img {
-
-  padding-left: 35em;
+margin-right: auto;
+margin-left: auto;
+display:block;
 
 }
 
 .img2 {
   bottom: 17.5em;
   position: relative;
+
 }
 
 /*code for expanding img*/
@@ -501,4 +503,15 @@ a.lightbox-close:after {
   top: 0px;
   margin-top:80px;
 }
+
+.img{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+
 

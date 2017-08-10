@@ -17,7 +17,7 @@
             <ul class="nav navbar nav-items mobile-nav-hidden" id="nav-items">
 
                 <li class="bar">
-                    <a href="index.html" class="logo"><img src="images/placeholder.png" width="75" height="75" class="logo"></img>
+                    <a href="index.html" class="logo"><img src="images/1_Primary_logo_on_transparent_96x74.png" width="" height="75" class="logo"></img>
                     </a>
                 </li>
                 <li class="home bar nav-item"><a href="index.html">Home</a></li>
@@ -30,10 +30,10 @@
     </header>
     <main>
         <div class="slideshow">
-            <img class="myslides" src="images/placeholder5.jpg"></img>
-            <img class="myslides" src="images/placeholder5.jpg"></img>
-            <img class="myslides" src="images/placeholder5.jpg"></img>
-            <img class="myslides" src="images/placeholder5.jpg"></img>
+            <img class="myslides" src="images/djphoto.jpeg"></img>
+            <!--<img class="myslides" src="images/placeholder5.jpg"></img>-->
+            <!--<img class="myslides" src="images/placeholder5.jpg"></img>-->
+            <!--<img class="myslides" src="images/placeholder5.jpg"></img>-->
         </div>
 
         <h1 class="name">Name of Company</h1>
@@ -70,23 +70,24 @@
     </footer>
 </body>
 <script>
-    var myIndex = 0;
-    carousel();
+    // var myIndex = 0;
+    // carousel();
 
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("myslides");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {
-            myIndex = 1
-        }
-        x[myIndex - 1].style.display = "block";
-        setTimeout(carousel, 5000); // Change image every 5 seconds
+    // function carousel() {
+    //     var i;
+    //     var x = document.getElementsByClassName("myslides");
+    //     for (i = 0; i < x.length; i++) {
+    //         x[i].style.display = "none";
+    //     }
+    //     myIndex++;
+    //     if (myIndex > x.length) {
+    //         myIndex = 1
+    //     }
+    //     x[myIndex - 1].style.display = "block";
+    //     setTimeout(carousel, 5000); // Change image every 5 seconds
 
-    }(document, "script", "twitter-wjs");
+    // }
+    (document, "script", "twitter-wjs");
     var navToggle = document.getElementById('nav-toggle');
 
     var navItems = document.getElementById('nav-items')

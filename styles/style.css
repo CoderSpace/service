@@ -71,6 +71,7 @@ a {
   color:#BA01FF;
 }
 .logo {
+
   line-height: 5.7;
 }
 
@@ -212,7 +213,7 @@ footer {
   width: 100%;
   height: 8em;
   position: absolute;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   text-align: center;
   color: white;
   z-index: 180;
@@ -239,6 +240,7 @@ h2 {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
+  box-shadow:;
 }
 
 .fillout * {
@@ -289,24 +291,31 @@ h2 {
 .flex-outer li input:not([type='checkbox']),
 .flex-outer li textarea {
   padding: 15px;
-  border: none;
+  border: solid;
 }
 
 .flex-outer li button {
   margin-left: auto;
   padding: 9px 26px;
-  border: none;
-  background: grey;
-  color: white;
+  border: 2px solid crimson;
+  background: white;
+  color: black;
   text-transform: uppercase;
   letter-spacing: .09em;
   border-radius: 2px;
   cursor: pointer;
   align-self: center;
+  box-shadow: 5px 5px 5px black;
+  transition-duration: 0.4s;
+}
+
+.flex-outer li button:hover {
+  background-color: crimson;
+  color: white;
 }
 
 .button:hover {
-  background-color: gray;
+  background-color: grey;
 }
 
 
@@ -444,13 +453,12 @@ h2 {
 .fillout select {
   padding: 9px 8px;
   width: 150%;
-  border: inherit;
+  border: solid;
   background-color: white;
 }
 
 .fillout select:focus {
-
-  outline: hidden;
+    outline: hidden;
 }
 
 
@@ -602,7 +610,6 @@ a.lightbox-close:after {
   top: 0px;
   margin-top: 80px;
 }
-
 .img {
   width: 90%;
   margin-left: auto;
@@ -643,4 +650,10 @@ a.lightbox-close:after {
   to {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
   }
+}
+.img{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }

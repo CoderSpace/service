@@ -172,6 +172,7 @@ h2 {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
+  box-shadow:;
 }
 
 .fillout * {
@@ -222,24 +223,31 @@ h2 {
 .flex-outer li input:not([type='checkbox']),
 .flex-outer li textarea {
   padding: 15px;
-  border: none;
+  border: solid;
 }
 
 .flex-outer li button {
   margin-left: auto;
   padding: 9px 26px;
-  border: none;
-  background: grey;
-  color: white;
+  border: 2px solid crimson;
+  background: white;
+  color: black;
   text-transform: uppercase;
   letter-spacing: .09em;
   border-radius: 2px;
   cursor: pointer;
   align-self: center;
+  box-shadow: 5px 5px 5px black;
+  transition-duration: 0.4s;
+}
+
+.flex-outer li button:hover {
+  background-color: crimson;
+  color: white;
 }
 
 .button:hover {
-  background-color: gray;
+  background-color: grey;
 }
 
 
@@ -348,12 +356,11 @@ h2 {
 .fillout select {
   padding: 9px 8px;
   width: 150%;
-  border: inherit;
+  border: solid;
   background-color: white;
 }
 
 .fillout select:focus {
-
     outline: hidden;
 }
 

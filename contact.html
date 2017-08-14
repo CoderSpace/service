@@ -2,67 +2,71 @@
 <html>
 
 <head>
-    <title>Service Template</title>
-    <link rel="stylesheet" href="styles/style.css" type="text/css" />
-    <script src="https://use.fontawesome.com/eea71920ff.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="index.js"></script>
+  <title>Service Template</title>
+  <link rel="stylesheet" href="styles/style.css" type="text/css" />
+  <script src="https://use.fontawesome.com/eea71920ff.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="index.js"></script>
 </head>
 
 
 <body style="background-color:darkgrey;">
 
 
-    <header>
-        <nav>
-            <button  class="nav-toggle" id="nav-toggle"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+  <header>
+    <nav>
+      <section class="menu-button">
+        <div class="text-menu">
+          <button class="nav-toggle" id="nav-toggle"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+        </div>
+      </section>
 
-            <ul class="nav navbar nav-items mobile-nav-hidden" id="nav-items">
-                
-                <a href="index.html" class="logo"><img src="images/1_Primary_logo_on_transparent_96x74.png" width="" height="65" class="logo"></img>
+      <ul class="nav navbar nav-items mobile-nav-hidden" id="nav-items">
+      <li class="bar">
+        <a href="index.html" class="logo"><img src="images/1_Primary_logo_on_transparent_96x74.png" width="" height="65"></img>
                     </a>
-                </li>
-                <li class="bar home nav-item">
-                    <a href="index.html">Home</a>
-                </li>
-                <li class="bar nav-item"><a href="about.html">About</a></li>
-                <li class="bar nav-item"><a href="services.html">Services</a></li>
-                <li class="bar nav-item"><a href="gallery.html">Gallery</a></li>
-                <li class="bar nav-item"><a class="active" href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        
-        <h2>How can we help?</h2>
-            
-            <p></p>
-            <p class="formp">Fill out this form and we will contact you.</p>
-        </header>
-        
-        <main>
+        </li>
+        <li class="bar home nav-item">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="bar nav-item"><a href="about.html">About</a></li>
+        <li class="bar nav-item"><a href="services.html">Services</a></li>
+        <li class="bar nav-item"><a href="gallery.html">Gallery</a></li>
+        <li class="active4 bar nav-item"><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
 
-<div class="fillout">
-  <form>
-    <ul class="flex-outer">
-      <li>
-        <label for="first-name">First Name</label>
-        <input type="text" id="first-name" placeholder="Enter your first name here">
-      </li>
-      <li>
-        <label for="last-name">Last Name</label>
-        <input type="text" id="last-name" placeholder="Enter your last name here">
-      </li>
-      <li>
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="Enter your email here">
-      </li>
-      <li>
-        <label for="phone">Phone</label>
-        <input type="tel" id="phone" placeholder="Enter your phone here">
-      </li>
-      
-      <li>
-          <label for="state">State</label>
-          <select id="state" name="state">
+    <h2>How can we help?</h2>
+
+    <p></p>
+    <p class="formp">Fill out this form and we will contact you.</p>
+  </header>
+
+  <main>
+
+    <div class="fillout">
+      <form>
+        <ul class="flex-outer">
+          <li>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" placeholder="Enter your first name here">
+          </li>
+          <li>
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" placeholder="Enter your last name here">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email here">
+          </li>
+          <li>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="Enter your phone here">
+          </li>
+
+          <li>
+            <label for="state">State</label>
+            <select id="state" name="state">
             <option>State</option>
             <option>AL</option>
             <option>AR</option>
@@ -132,11 +136,11 @@
             <option>SK</option>
             <option>YT</option>
             </select>
-      </li>
-    
-      <li>
-          <label for="country">Country</label>
-          <select id="country" name="country">
+          </li>
+
+          <li>
+            <label for="country">Country</label>
+            <select id="country" name="country">
             <option>Country</option>
             <option>Afghanistan</option>
             <option>Åland Islands</option>
@@ -377,29 +381,29 @@
             <option>Zambia</option>
             <option>Zimbabwe</option>
           </select>
-      </li>
-      
-      <li>
-        <label for="message">Questions & Comments</label>
-        <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
-      </li>
-      
-      <li>
-        <button class="send" type="submit">Submit</button>
-      </li>
-    </ul>
-  </form>
-</div>
-            
-            </main>
+          </li>
 
-    <footer>
-        <p class="footer-text">Contact Information:</p>
-        <p class="footer-text"><a href="mailto:someone@gmail.com" target="blank">someone@gmail.com</a> / <a href="tel:555-555-5555">(555) 555-5555</a> / 1234 E Somewhere ave / Chicago, IL</p>
-        <a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook-official fa-2x icon" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/?lang=en" target="blank"><i class="fa fa-twitter fa-2x icon2" aria-hidden="true"></i></a>
-        <a href="https://www.instagram.com/accounts/login/" target="blank"><i class="fa fa-instagram fa-2x icon3" aria-hidden="true"></i></a>
-    </footer>
+          <li>
+            <label for="message">Questions & Comments</label>
+            <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+          </li>
+
+          <li>
+            <button class="send" type="submit">Submit</button>
+          </li>
+        </ul>
+      </form>
+    </div>
+
+  </main>
+
+  <footer>
+    <p class="footer-text">Contact Information:</p>
+    <p class="footer-text"><a href="mailto:someone@gmail.com" target="blank">someone@gmail.com</a> / <a href="tel:555-555-5555">(555) 555-5555</a> / 1234 E Somewhere ave / Chicago, IL</p>
+    <a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook-official fa-2x icon" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/?lang=en" target="blank"><i class="fa fa-twitter fa-2x icon2" aria-hidden="true"></i></a>
+    <a href="https://www.instagram.com/accounts/login/" target="blank"><i class="fa fa-instagram fa-2x icon3" aria-hidden="true"></i></a>
+  </footer>
 </body>
 
 </html>

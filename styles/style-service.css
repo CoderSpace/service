@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Bellefair');
 
 
-img {
-  /*width:100%;*/
-}
+/*img {*/
+/*  width:100%;*/
+/*}*/
 
 .service2 {
   display:flex;
@@ -18,6 +18,9 @@ img {
   padding-left:2em;
 }
 
+/*.footer{*/
+/*    margin:0%;*/
+/*}*/
 
 .third_text_section {
     padding-right:1em;
@@ -51,11 +54,18 @@ li {
     margin:0;
     padding:0;
 }
+main{
+    width:80%;
+    margin:auto;
+    background-color:white;
+    height:100%;
+}
 
 body{
     margin:0;
     padding:0;
     font-family: 'Bellefair', serif;
+    background-color:#f2f2f2;
 
 }
 
@@ -68,8 +78,10 @@ html {
     text-align:center;
 }
 
-.logo {
-    width:75px;
+.logotab {
+    /*width:px;*/
+    backround-color:red;
+    color:blue;
 }
 
 .texts {
@@ -82,6 +94,8 @@ html {
 
  .plastic{
      text-align:center;
+     padding:0%;
+     margin:0%;
 }
 
 @media screen and (max-width: 1080px) and (min-width: 320px) {

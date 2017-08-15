@@ -1,81 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Bellefair');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 body {
   margin: 0;
   position: relative;
   bottom: 0;
-  font-family: 'Bellefair', serif;
-  background-color:#f2f2f2;
-}
-main{
-    width:80%;
-    margin:auto;
-    background-color:white;
-    height:100%;
-    padding:20px 40px 40px 40px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f2f2f2;
 }
 
-
-html {
-  font-family: 'Bellefair', serif;
+main {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  /*height:100%;*/
+  padding: 40px;
 }
-.active:nth-child(3) a {
+
+.active a {
   color: #fff;
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
   -moz-animation: neon1 1.5s ease-in-out infinite alternate;
   animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
-.active:nth-child(3) {
+.active {
   color: #FF1177;
   -webkit-animation: none;
   -moz-animation: none;
   animation: none;
 }
-.active2:nth-child(4) a {
-  color: #228DFF;
-}
 
-.active2:nth-child(4) a {
-  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
-  animation: neon2 1.5s ease-in-out infinite alternate;
-}
-.active3:nth-child(5) a {
-  color: #FFDD1B;
-}
-
-.active3:nth-child(5) a {
-  -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon3 1.5s ease-in-out infinite alternate;
-  animation: neon3 1.5s ease-in-out infinite alternate;
-}
-.active4:nth-child(6) a {
-  color: #B6FF00;
-}
-
-.active4:nth-child(6) a {
-  -webkit-animation: neon4 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon4 1.5s ease-in-out infinite alternate;
-  animation: neon4 1.5s ease-in-out infinite alternate;
-}
-a {
-  text-decoration: none;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.active {
-  color: #FF1177;
-}
-.active2 {
-  color:#228DFF;
-}
-.active3 {
-  color:#FFDD1B;
-}
-.active4 {
-  color:#BA01FF;
-}
 .logo {
 
   line-height: 5.7;
@@ -123,13 +77,12 @@ h1 {
 
 .conbutton {
   text-decoration: none;
-  border: 2px black solid;
-  background-color: #CA3838;
+  border: 2px red solid;
   border-radius: 5px;
   display: block;
   padding: 10px;
   width: 20%;
-  color:black;
+  color: black;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -196,7 +149,7 @@ footer {
   background-color: black;
   font-size: 150%;
   width: 100%;
-  height: 8em;
+  height: 9em;
   position: absolute;
   text-align: center;
   color: white;
@@ -213,7 +166,7 @@ footer a {
 }
 
 a:hover {
-  color: white;
+  color: #FF1177;
 }
 
 h2 {
@@ -321,6 +274,7 @@ h2 {
 
 .pics {
   width: 80%;
+  height: 100%;
 }
 
 .nav-toggle {
@@ -346,7 +300,7 @@ h2 {
     height: 100%;
     z-index: 12;
     position: relative;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     display: block;
   }
   li a {
@@ -375,8 +329,12 @@ h2 {
     background-color: black;
     color: white;
     border: none;
-    padding-top:5px;
-    padding-bottom:5px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*margin-bottom: 10px;*/
+    /*margin-left: 10px;*/
+    /*margin-top: 10px;*/
   }
   .form {
     display: block;
@@ -405,27 +363,76 @@ h2 {
     background-color: black;
     font-size: 150%;
     width: 100%;
-    min-height: 9em;
+    min-height: 11em;
     position: absolute;
     margin-top: 20px;
     text-align: center;
     color: white;
   }
+  .footer-text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .text-menu {
-    width:100%;
+    width: 100%;
     background-color: black;
     color: white;
     display: flex;
-    border:none;
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+    border: none;
     margin-top: -.1px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
   }
   button:active {
-    border:none;
+    border: none;
   }
   .txt_wrap {
-    display:none;
+    display: none;
   }
+  .menu-button {
+    display: flex;
+  }
+  .conbutton {
+    text-decoration: none;
+    border: 2px red solid;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    min-width: 6.250em;
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  /*main {*/
+  /*  width: 90%;*/
+    /*margin:auto;*/
+  /*  background-color: white;*/
+    /*height:100%;*/
+  /*  padding: 0px;*/
+  /*}*/
+  .modal-size {
+    width: 50%;
+    /*height:50%;*/
+  }
+  .lightbox-target {
+    position: fixed;
+    top: -100%;
+    left:0;
+    width: 100%;
+    margin:auto;
+    background: rgba(0, 0, 0, .7);
+    opacity: 0;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    overflow: hidden;
+  }
+}
   .menu-button {
     display:flex;
   }
@@ -442,7 +449,7 @@ h2 {
 }
 
 .fillout select:focus {
-    outline: hidden;
+  outline: hidden;
 }
 
 
@@ -480,7 +487,6 @@ h2 {
   top: -100%;
   width: 100%;
   background: rgba(0, 0, 0, .7);
-  width: 100%;
   opacity: 0;
   -webkit-transition: opacity .5s ease-in-out;
   -moz-transition: opacity .5s ease-in-out;
@@ -589,11 +595,13 @@ a.lightbox-close:after {
   top: 0px;
   margin-top: 80px;
 }
+
 .about-img {
   margin: auto;
   display: block;
   width:75%;
 }
+
 @-webkit-keyframes neon1 {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;

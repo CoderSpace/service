@@ -178,37 +178,16 @@ h1 {
 }
 
 .icon {
-  /*color: #3C5A9A;*/
   margin-right: .5em;
-  /*box-shadow: 0px 3px 10px rgba(0,0,0,.25);*/
 }
 
 .icon2 {
-  /*color: #55A8ED;*/
   margin-right: .5em;
-  /*box-shadow: 0px 3px 2px rgba(0,0,0,.25);*/
-  /*border-radius:3px;*/
 }
 
 .twitter {
   font-size: 2em;
 }
-
-/*.icon3 {*/
-
-/*  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);*/
-
-/*  color: white;*/
-
-/*  border-radius: 5px;*/
-
-/*  padding-right: .07em;*/
-
-/*  padding-left: .07em;*/
-
-/*  margin-left: .5em;*/
-
-/*}*/
 
 footer {
   background-color: black;
@@ -216,7 +195,6 @@ footer {
   width: 100%;
   height: 8em;
   position: absolute;
-  /*margin-top: 20px;*/
   text-align: center;
   color: white;
   z-index: 180;
@@ -243,7 +221,6 @@ h2 {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  box-shadow:;
 }
 
 .fillout * {
@@ -393,14 +370,10 @@ h2 {
   }
   button {
     background-color: black;
-    /*width: 100%;*/
     color: white;
     border: none;
     padding-top:5px;
     padding-bottom:5px;
-    /*margin-bottom: 10px;*/
-    /*margin-left: 10px;*/
-    /*margin-top: 10px;*/
   }
   .form {
     display: block;
@@ -409,7 +382,6 @@ h2 {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    /*margin:auto;*/
   }
   .myslides {
     width: 95%;
@@ -441,8 +413,6 @@ h2 {
     background-color: black;
     color: white;
     display: flex;
-    /*justify-content: flex-start;*/
-    /*align-items: center;*/
     border:none;
     margin-top: -.1px;
     margin-bottom:10px;

@@ -1,14 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Bellefair');
 
-
-/*img {*/
-/*  width:100%;*/
-/*}*/
-
 .service2 {
   display:flex;
   flex-direction:column;
-  /*padding:2%;*/
 }
 
 .services {
@@ -18,31 +12,14 @@
   padding-left:2em;
 }
 
-/*.footer{*/
-/*    margin:0%;*/
-/*}*/
-
-.third_text_section {
-    padding-right:1em;
-    padding-top:2em;
-    margin-left:auto;
-      width: 200%;
-      padding-left:2em;
-} 
-
-
-
-.first_text_section {
- justify-content:flex-start;
-
-    /*padding:2%;*/
+.firstlist {
     justify-content:flex-start;
-
+    padding-left:1em;
 }
 
 .secondlist {
     justify-content:flex-start;
-    padding-left:3em;
+    padding-left:1em;
 }
 
 li {
@@ -66,12 +43,12 @@ body{
     padding:0;
     font-family: 'Bellefair', serif;
     background-color:#f2f2f2;
+    font-size: 120%;
 
 }
 
 html {
         font-family: 'Bellefair', serif;
-
 }
 
 .heading1{
@@ -79,8 +56,6 @@ html {
 }
 
 .logotab {
-    /*width:px;*/
-    backround-color:red;
     color:blue;
 }
 
@@ -88,7 +63,7 @@ html {
     padding-left:2em;
     font-size:118%;
     padding-right:2em;
-    font-size:140%;
+    font-size:120%;
     justify-content:flex-start;
 }
 
@@ -105,14 +80,11 @@ html {
       flex-wrap:wrap;
       padding-left:2em;
             justify-content:flex-start;
-
-      /*padding-left:2em;*/
       justify-content:flex-start;
   }
   .service2 {
       display:flex;
       flex-direction:row;
-      /*padding-left:2em;*/
       flex-wrap:wrap;
       justify-content:flex-start;
   }

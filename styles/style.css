@@ -11,7 +11,10 @@ main{
     margin:auto;
     background-color:white;
     height:100%;
+    padding:20px 40px 40px 40px;
 }
+
+
 html {
   font-family: 'Bellefair', serif;
 }
@@ -421,12 +424,15 @@ h2 {
     border:none;
   }
   .txt_wrap {
-  display:none;
-}
-.menu-button {
-  display:flex;
-}
-}
+    display:none;
+  }
+  .menu-button {
+    display:flex;
+  }
+  
+.about-img {
+    width:75%;
+  }
 
 .fillout select {
   padding: 9px 8px;
@@ -447,24 +453,19 @@ h2 {
 }
 
 .text2 {
-  padding: 20px;
+  padding: 40px;
   margin: auto;
 
   outline: hidden;
 }
 
 .text2 {
-  padding: 20px;
+  padding: 40px;
 
 }
 
 
-.img {
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
 
-}
 
 .img2 {
   bottom: 17.5em;
@@ -588,11 +589,10 @@ a.lightbox-close:after {
   top: 0px;
   margin-top: 80px;
 }
-.img {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+.about-img {
+  margin: auto;
   display: block;
+  width:75%;
 }
 @-webkit-keyframes neon1 {
   from {
@@ -628,10 +628,4 @@ a.lightbox-close:after {
   to {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
   }
-}
-.img{
-    width:90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }

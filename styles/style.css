@@ -4,10 +4,13 @@ body {
   position: relative;
   bottom: 0;
   font-family: 'Bellefair', serif;
-
+  background-color:#f2f2f2;
 }
-main {
-  width:80%;
+main{
+    width:80%;
+    margin:auto;
+    background-color:white;
+    height:100%;
 }
 html {
   font-family: 'Bellefair', serif;

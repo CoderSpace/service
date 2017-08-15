@@ -100,4 +100,7 @@ html {
 .service-second-img {
     padding-top:5em;
 }
-
+li p {
+    display:inline;
+    margin-left:.5em;
+}

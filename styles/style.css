@@ -31,7 +31,6 @@ main {
 }
 
 .logo {
-
   line-height: 5.7;
 }
 
@@ -108,7 +107,7 @@ h1 {
 .slideshow {
   text-align: center;
   width: 100%;
-  height:25em;
+  /*height:25em;*/
 }
 
 .myslides {
@@ -410,9 +409,9 @@ h2 {
   }
   /*main {*/
   /*  width: 90%;*/
-    /*margin:auto;*/
+  /*margin:auto;*/
   /*  background-color: white;*/
-    /*height:100%;*/
+  /*height:100%;*/
   /*  padding: 0px;*/
   /*}*/
   .modal-size {
@@ -422,9 +421,9 @@ h2 {
   .lightbox-target {
     position: fixed;
     top: -100%;
-    left:0;
+    left: 0;
     width: 100%;
-    margin:auto;
+    margin: auto;
     background: rgba(0, 0, 0, .7);
     opacity: 0;
     -webkit-transition: opacity .5s ease-in-out;
@@ -433,14 +432,22 @@ h2 {
     transition: opacity .5s ease-in-out;
     overflow: hidden;
   }
+  main {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    /*height:100%;*/
+    padding: 20px;
+  }
 }
-  .menu-button {
-    display:flex;
-  }
-  
+
+.menu-button {
+  display: flex;
+}
+
 .about-img {
-    width:75%;
-  }
+  width: 75%;
+}
 
 .fillout select {
   padding: 9px 8px;
@@ -600,7 +607,7 @@ a.lightbox-close:after {
 .about-img {
   margin: auto;
   display: block;
-  width:75%;
+  width: 75%;
 }
 
 @-webkit-keyframes neon1 {

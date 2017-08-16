@@ -30,9 +30,6 @@ main {
   animation: none;
 }
 
-.logo {
-  line-height: 5.7;
-}
 
 .nav {
   display: flex;
